@@ -384,7 +384,7 @@
                     </ul>
                 </address>
             </div>
-            <div>
+            <div class="join-footer">
                 <h2 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
                 <ul class="join-list">
                     <li class="join-list-item">
@@ -420,6 +420,19 @@
                     </li>
                 </ul>
             </div>
+            <div class="mail-form-footer">
+            <h2 class="mail-form-text-footer">Подпишитесь на рассылку</h2>
+            <form class="mail-form-footer">
+                    <span class="mail-form-input-wrapper">
+                        <input class="mail-form-input" placeholder="E-mail" type="email" required name="user_email" />
+                    </span>
+                <button class="mail-form-btn" type="submit" >Подписаться 
+                    <svg class="mail-form-footer-icon" width="24" height="24">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+            </div>
         </div>
     </footer>
 
@@ -453,7 +466,7 @@
                 <label class="contact-form-field">
                     <span class="contact-form-field-key">Почта</span>
                     <span class="contact-form-input-wrapper">
-                        <input class="contact-form-input" type="email" required name="user_email" />
+                        <input class="contact-form-input" type="email" required name="user_email" pattern="+@" />
                             <svg class="contact-form-icon" width="12" height="12">
                                 <use href="./images/sprite.svg#icon-email-modal"></use>
                         </span>
